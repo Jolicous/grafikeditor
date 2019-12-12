@@ -55,6 +55,4 @@ public class Display extends JFrame {
       this.zeichnung = zeichnung;
       repaint();
   }
-
-
 }

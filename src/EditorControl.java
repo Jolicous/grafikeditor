@@ -1,5 +1,8 @@
-import java.awt.Graphics;
-import java.awt.Point;
+import figuren.Kreis;
+import figuren.Linie;
+import figuren.Rechteck;
+
+import java.awt.*;
 
 final class EditorControl {
   private Zeichnung zeichnung = new Zeichnung();
@@ -7,7 +10,7 @@ final class EditorControl {
   private Point ersterPunkt;
 
   public void allesNeuZeichnen(Graphics g) {
-    //TODO: Erg�nzen
+   zeichnung.zeichneFiguren(g);
   }
 
   public void setFigurTyp(char figurTyp) {
@@ -19,6 +22,24 @@ final class EditorControl {
   }
 
   public void erzeugeFigurMitZweitemPunkt(Point zweiterPunkt) {
-    //TODO: Erg�nzen
+    int x = Math.min(this.ersterPunkt.x, zweiterPunkt.x);
+    int y = Math.min(this.ersterPunkt.y, zweiterPunkt.y);
+    int hoehe = Math.abs(zweiterPunkt.x - this.ersterPunkt.x);
+    int laenge = Math.abs(zweiterPunkt.y - this.ersterPunkt.y);
+    switch (this.figurTyp){
+      case 'r':
+        Rechteck rechteck = new Rechteck(x, y, laenge, hoehe, Color.BLUE, 1);
+        zeichnung.hinzufuegen(rechteck);
+        break;
+      case 'l':
+        Linie linie = new Linie(this.ersterPunkt.x, this.ersterPunkt.y, zweiterPunkt.x, zweiterPunkt.y, Color.GREEN, 1);
+        zeichnung.hinzufuegen(linie);
+        break;
+      case 'k':
+        int radius = (int)Math.sqrt(hoehe * hoehe + laenge * laenge);
+        Kreis kreis = new Kreis(this.ersterPunkt.x, this.ersterPunkt.y, radius, Color.RED, 1);
+        zeichnung.hinzufuegen(kreis);
+        break;
+    }
   }
 }

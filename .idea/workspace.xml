@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c8627e1-d39b-4c93-906e-1243c1dafdd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/EditorControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/EditorControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/EditorMouseAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/EditorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/EditorPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EditorControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditorControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EditorMouseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EditorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditorPanel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +31,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -88,16 +95,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/EditorMouseAdapter.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
