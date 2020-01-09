@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c8627e1-d39b-4c93-906e-1243c1dafdd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DaoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FigurDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FigurDAOStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FigurParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Figuren.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafikeditor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/grafikeditor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/EditorPanel$EditorKeyAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/EditorPanel$EditorKeyAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/EditorPanel$EditorMouseAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/EditorPanel$EditorMouseAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/EditorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/EditorPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FigurFileDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FigurFileDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FigurParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FigurParser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -22,8 +33,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Tb6m5ot9cHdDojHGfZLrmPo646" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -31,6 +49,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vmadmin\Desktop\M226-1\grafikeditor\src" />
     </key>
@@ -47,7 +71,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Grafikeditor">
+  <component name="RunManager" selected="Application.DaoMain">
+    <configuration name="DaoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DaoMain" />
+      <module name="grafikeditor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Grafikeditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Grafikeditor" />
       <module name="grafikeditor" />
@@ -62,8 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FigurParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grafikeditor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FigurParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DaoMain" />
+        <item itemvalue="JUnit.FigurParserTest" />
         <item itemvalue="Application.Grafikeditor" />
         <item itemvalue="Application.Main" />
       </list>
@@ -94,6 +136,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

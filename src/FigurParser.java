@@ -7,10 +7,10 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FigurParser {
-  private FigurFileDAO dao;
+public class FigurParser{
+  private FigurDAO dao;
 
-  public FigurParser(FigurFileDAO dao) {
+  public FigurParser(FigurDAO dao) {
     this.dao = dao;
   }
 
