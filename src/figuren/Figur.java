@@ -3,17 +3,22 @@ package figuren;
 import java.awt.*;
 
 public abstract class Figur{
-    public Figur(){ }
-    public Figur(int x, int y, Color color, int stroke){
+    public Figur(String typ, int x, int y, Color color, int stroke){
+        this.typ = typ;
         this.xKoordinate = x;
         this.yKoordinate = y;
         this.color = color;
         this.stroke = stroke;
     }
+    private String typ;
     private int xKoordinate;
     private int yKoordinate;
     private Color color;
     private int stroke;
+
+    public String getTyp(){
+        return typ;
+    }
 
     public int getX(){
         return xKoordinate;
@@ -37,4 +42,6 @@ public abstract class Figur{
         xKoordinate += deltaX;
         yKoordinate += deltaY;
     }
+
+    public abstract String toString();
 }

@@ -25,16 +25,16 @@ public class FigurParser{
       case "Rechteck":
         int breite = Integer.parseInt(figurData[3]);
         int hoehe = Integer.parseInt(figurData[4]);
-        figuren.add(new Rechteck(x, y, breite, hoehe, Color.GREEN, 1));
+        figuren.add(new Rechteck("Rechteck", x, y, breite, hoehe, Color.GREEN, 1));
         break;
       case "Kreis":
         int radius = Integer.parseInt(figurData[3]);
-        figuren.add(new Kreis(x, y, radius, Color.BLUE, 1));
+        figuren.add(new Kreis("Kreis", x, y, radius, Color.BLUE, 1));
         break;
       case "Linie":
         int endx = Integer.parseInt(figurData[3]);
         int endy = Integer.parseInt(figurData[4]);
-        figuren.add(new Linie(x, y, endx, endy, Color.BLACK, 1));
+        figuren.add(new Linie("Linie", x, y, endx, endy, Color.BLACK, 1));
         break;
       }
       figurData = dao.readNextFigurData();

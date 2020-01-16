@@ -28,16 +28,16 @@ final class EditorControl {
     int laenge = Math.abs(zweiterPunkt.y - this.ersterPunkt.y);
     switch (this.figurTyp){
       case 'r':
-        Rechteck rechteck = new Rechteck(x, y, laenge, hoehe, Color.BLUE, 1);
+        Rechteck rechteck = new Rechteck("Rechteck", x, y, laenge, hoehe, Color.BLUE, 1);
         zeichnung.hinzufuegen(rechteck);
         break;
       case 'l':
-        Linie linie = new Linie(this.ersterPunkt.x, this.ersterPunkt.y, zweiterPunkt.x, zweiterPunkt.y, Color.GREEN, 1);
+        Linie linie = new Linie("Linie", this.ersterPunkt.x, this.ersterPunkt.y, zweiterPunkt.x, zweiterPunkt.y, Color.GREEN, 1);
         zeichnung.hinzufuegen(linie);
         break;
       case 'k':
         int radius = (int)Math.sqrt(hoehe * hoehe + laenge * laenge);
-        Kreis kreis = new Kreis(this.ersterPunkt.x, this.ersterPunkt.y, radius, Color.RED, 1);
+        Kreis kreis = new Kreis("Kreis", this.ersterPunkt.x, this.ersterPunkt.y, radius, Color.RED, 1);
         zeichnung.hinzufuegen(kreis);
         break;
     }

@@ -5,8 +5,8 @@ import figuren.Figur;
 import java.awt.*;
 
 public class Rechteck extends Figur {
-    public Rechteck(int x, int y, int hoehe, int laenge, Color color, int stroke){
-        super(x, y, color, stroke);
+    public Rechteck(String typ, int x, int y, int hoehe, int laenge, Color color, int stroke){
+        super(typ, x, y, color, stroke);
         this.hoehe = hoehe;
         this.laenge = laenge;
     }
@@ -27,5 +27,9 @@ public class Rechteck extends Figur {
         g2.setColor(getColor());
         g2.drawRect(getX(), getY(), getLaenge(), getHoehe());
         g2.setStroke(new BasicStroke(getStroke()));
+    }
+
+    public String toString(){
+        return super.getTyp() + " " + super.getX() + " " + super.getY() + " " + hoehe + " " + laenge;
     }
 }

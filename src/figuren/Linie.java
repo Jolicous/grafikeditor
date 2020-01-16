@@ -5,8 +5,8 @@ import figuren.Figur;
 import java.awt.*;
 
 public class Linie extends Figur {
-    public Linie(int x, int y, int xKoordinate, int yKoordinate, Color color, int stroke){
-        super(x, y, color, stroke);
+    public Linie(String typ, int x, int y, int xKoordinate, int yKoordinate, Color color, int stroke){
+        super(typ, x, y, color, stroke);
         this.xKoordinate = xKoordinate;
         this.yKoordinate = yKoordinate;
     }
@@ -34,5 +34,9 @@ public class Linie extends Figur {
         super.move(deltaX, deltaY);
         xKoordinate += deltaX;
         yKoordinate += deltaY;
+    }
+
+    public String toString(){
+        return super.getTyp() + " " + super.getX() + " " + super.getY() + " " + xKoordinate + " " + yKoordinate;
     }
 }
