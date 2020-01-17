@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c8627e1-d39b-4c93-906e-1243c1dafdd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ConcreteGraphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphicsStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KreisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/EditorControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/EditorControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/FigurParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/FigurParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/FigurParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/FigurParserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/Gruppe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/Gruppe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Figur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Figur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Kreis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Kreis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Linie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Linie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Rechteck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Rechteck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/figuren/Text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditorControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditorControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FigurParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FigurParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FigurParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FigurParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gruppe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gruppe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/figuren/Figur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figuren/Figur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/figuren/Kreis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figuren/Kreis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/figuren/Linie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figuren/Linie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/figuren/Rechteck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figuren/Rechteck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/figuren/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figuren/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/ConcreteGraphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/ConcreteGraphics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/GraphicsStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/GraphicsStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/KreisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/KreisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConcreteGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteGraphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphicsStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphicsStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KreisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KreisTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FigurParserTest">
+  <component name="RunManager" selected="JUnit.KreisTest">
     <configuration name="DaoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DaoMain" />
       <module name="grafikeditor" />
@@ -114,10 +97,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KreisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grafikeditor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KreisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FigurParserTest" />
+        <item itemvalue="JUnit.KreisTest" />
         <item itemvalue="Application.Grafikeditor" />
+        <item itemvalue="JUnit.FigurParserTest" />
         <item itemvalue="Application.DaoMain" />
         <item itemvalue="Application.Main" />
       </list>

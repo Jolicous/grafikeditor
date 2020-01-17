@@ -1,8 +1,156 @@
 import java.awt.*;
+import java.awt.font.FontRenderContext;
+import java.awt.font.GlyphVector;
+import java.awt.geom.AffineTransform;
+import java.awt.image.BufferedImage;
+import java.awt.image.BufferedImageOp;
 import java.awt.image.ImageObserver;
+import java.awt.image.RenderedImage;
+import java.awt.image.renderable.RenderableImage;
 import java.text.AttributedCharacterIterator;
+import java.util.Map;
 
-public class ConcreteGraphics extends Graphics {
+public class ConcreteGraphics extends Graphics2D {
+    @Override
+    public void draw(Shape s) {
+
+    }
+
+    @Override
+    public boolean drawImage(Image img, AffineTransform xform, ImageObserver obs) {
+        return false;
+    }
+
+    @Override
+    public void drawImage(BufferedImage img, BufferedImageOp op, int x, int y) {
+
+    }
+
+    @Override
+    public void drawRenderedImage(RenderedImage img, AffineTransform xform) {
+
+    }
+
+    @Override
+    public void drawRenderableImage(RenderableImage img, AffineTransform xform) {
+
+    }
+
+    @Override
+    public void drawString(String str, int x, int y) {
+
+    }
+
+    @Override
+    public void drawString(String str, float x, float y) {
+
+    }
+
+    @Override
+    public void drawString(AttributedCharacterIterator iterator, int x, int y) {
+
+    }
+
+    @Override
+    public boolean drawImage(Image img, int x, int y, ImageObserver observer) {
+        return false;
+    }
+
+    @Override
+    public boolean drawImage(Image img, int x, int y, int width, int height, ImageObserver observer) {
+        return false;
+    }
+
+    @Override
+    public boolean drawImage(Image img, int x, int y, Color bgcolor, ImageObserver observer) {
+        return false;
+    }
+
+    @Override
+    public boolean drawImage(Image img, int x, int y, int width, int height, Color bgcolor, ImageObserver observer) {
+        return false;
+    }
+
+    @Override
+    public boolean drawImage(Image img, int dx1, int dy1, int dx2, int dy2, int sx1, int sy1, int sx2, int sy2, ImageObserver observer) {
+        return false;
+    }
+
+    @Override
+    public boolean drawImage(Image img, int dx1, int dy1, int dx2, int dy2, int sx1, int sy1, int sx2, int sy2, Color bgcolor, ImageObserver observer) {
+        return false;
+    }
+
+    @Override
+    public void dispose() {
+
+    }
+
+    @Override
+    public void drawString(AttributedCharacterIterator iterator, float x, float y) {
+
+    }
+
+    @Override
+    public void drawGlyphVector(GlyphVector g, float x, float y) {
+
+    }
+
+    @Override
+    public void fill(Shape s) {
+
+    }
+
+    @Override
+    public boolean hit(Rectangle rect, Shape s, boolean onStroke) {
+        return false;
+    }
+
+    @Override
+    public GraphicsConfiguration getDeviceConfiguration() {
+        return null;
+    }
+
+    @Override
+    public void setComposite(Composite comp) {
+
+    }
+
+    @Override
+    public void setPaint(Paint paint) {
+
+    }
+
+    @Override
+    public void setStroke(Stroke s) {
+
+    }
+
+    @Override
+    public void setRenderingHint(RenderingHints.Key hintKey, Object hintValue) {
+
+    }
+
+    @Override
+    public Object getRenderingHint(RenderingHints.Key hintKey) {
+        return null;
+    }
+
+    @Override
+    public void setRenderingHints(Map<?, ?> hints) {
+
+    }
+
+    @Override
+    public void addRenderingHints(Map<?, ?> hints) {
+
+    }
+
+    @Override
+    public RenderingHints getRenderingHints() {
+        return null;
+    }
+
     @Override
     public Graphics create() {
         return null;
@@ -139,47 +287,77 @@ public class ConcreteGraphics extends Graphics {
     }
 
     @Override
-    public void drawString(String str, int x, int y) {
+    public void translate(double tx, double ty) {
 
     }
 
     @Override
-    public void drawString(AttributedCharacterIterator iterator, int x, int y) {
+    public void rotate(double theta) {
 
     }
 
     @Override
-    public boolean drawImage(Image img, int x, int y, ImageObserver observer) {
-        return false;
+    public void rotate(double theta, double x, double y) {
+
     }
 
     @Override
-    public boolean drawImage(Image img, int x, int y, int width, int height, ImageObserver observer) {
-        return false;
+    public void scale(double sx, double sy) {
+
     }
 
     @Override
-    public boolean drawImage(Image img, int x, int y, Color bgcolor, ImageObserver observer) {
-        return false;
+    public void shear(double shx, double shy) {
+
     }
 
     @Override
-    public boolean drawImage(Image img, int x, int y, int width, int height, Color bgcolor, ImageObserver observer) {
-        return false;
+    public void transform(AffineTransform Tx) {
+
     }
 
     @Override
-    public boolean drawImage(Image img, int dx1, int dy1, int dx2, int dy2, int sx1, int sy1, int sx2, int sy2, ImageObserver observer) {
-        return false;
+    public void setTransform(AffineTransform Tx) {
+
     }
 
     @Override
-    public boolean drawImage(Image img, int dx1, int dy1, int dx2, int dy2, int sx1, int sy1, int sx2, int sy2, Color bgcolor, ImageObserver observer) {
-        return false;
+    public AffineTransform getTransform() {
+        return null;
     }
 
     @Override
-    public void dispose() {
+    public Paint getPaint() {
+        return null;
+    }
 
+    @Override
+    public Composite getComposite() {
+        return null;
+    }
+
+    @Override
+    public void setBackground(Color color) {
+
+    }
+
+    @Override
+    public Color getBackground() {
+        return null;
+    }
+
+    @Override
+    public Stroke getStroke() {
+        return null;
+    }
+
+    @Override
+    public void clip(Shape s) {
+
+    }
+
+    @Override
+    public FontRenderContext getFontRenderContext() {
+        return null;
     }
 }
