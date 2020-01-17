@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c8627e1-d39b-4c93-906e-1243c1dafdd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TestZeichnungMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/ConcreteGraphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/ConcreteGraphics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafikeditor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/grafikeditor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/GraphicsStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/GraphicsStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/KreisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/KreisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConcreteGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteGraphics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GraphicsStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphicsStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KreisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KreisTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="grafikeditor" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,10 +39,11 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mockito-all-1.10.19.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -66,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KreisTest">
+  <component name="RunManager" selected="JUnit.TestZeichnungMock">
     <configuration name="DaoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DaoMain" />
       <module name="grafikeditor" />
@@ -76,13 +78,6 @@
     </configuration>
     <configuration name="Grafikeditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Grafikeditor" />
-      <module name="grafikeditor" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="grafikeditor" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,13 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestZeichnungMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grafikeditor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestZeichnungMock" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestZeichnungMock" />
         <item itemvalue="JUnit.KreisTest" />
         <item itemvalue="Application.Grafikeditor" />
         <item itemvalue="JUnit.FigurParserTest" />
         <item itemvalue="Application.DaoMain" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
