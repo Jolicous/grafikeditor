@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c8627e1-d39b-4c93-906e-1243c1dafdd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestZeichnungMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafikeditor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/grafikeditor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/GraphicsStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/GraphicsStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphicsStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphicsStub.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,9 +109,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestZeichnungMock" />
+        <item itemvalue="JUnit.FigurParserTest" />
         <item itemvalue="JUnit.KreisTest" />
         <item itemvalue="Application.Grafikeditor" />
-        <item itemvalue="JUnit.FigurParserTest" />
         <item itemvalue="Application.DaoMain" />
       </list>
     </recent_temporary>
