@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5c8627e1-d39b-4c93-906e-1243c1dafdd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/FigurDAOStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/FigurDAOStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/grafikeditor/FigurParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/grafikeditor/FigurParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FigurDAOStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FigurDAOStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FigurParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FigurParserTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestZeichnungMock">
+  <component name="RunManager" selected="JUnit.KreisTest">
     <configuration name="DaoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DaoMain" />
       <module name="grafikeditor" />
@@ -108,9 +112,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestZeichnungMock" />
-        <item itemvalue="JUnit.FigurParserTest" />
         <item itemvalue="JUnit.KreisTest" />
+        <item itemvalue="JUnit.FigurParserTest" />
+        <item itemvalue="JUnit.TestZeichnungMock" />
         <item itemvalue="Application.Grafikeditor" />
         <item itemvalue="Application.DaoMain" />
       </list>

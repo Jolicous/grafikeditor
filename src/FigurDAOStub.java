@@ -1,7 +1,7 @@
 public class FigurDAOStub implements FigurDAO {
     private String[] testFiguren = {
-        "Rechteck 150 20 30 40",
-        "Linie 100 100 200 200",
+        "Rechteck 20 250 30 40",
+        "Linie 10 500 200 200",
         "Kreis 10 75 5"
     };
 

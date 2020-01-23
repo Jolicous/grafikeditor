@@ -21,8 +21,8 @@ public class FigurParserTest {
     public void test(){
         setup();
         List<Figur> figuren = fp.parse();
-        assertEquals("Rechteck 150 20 30 40", figuren.get(0).toString());
-        assertEquals("Linie 100 100 200 200", figuren.get(1).toString());
+        assertEquals("Rechteck 20 250 30 40", figuren.get(0).toString());
+        assertEquals("Linie 10 500 200 200", figuren.get(1).toString());
         assertEquals("Kreis 10 75 5", figuren.get(2).toString());
     }
 }
